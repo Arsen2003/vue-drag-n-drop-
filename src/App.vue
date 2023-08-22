@@ -8,7 +8,7 @@
           <div class="user-item" :key="element.id">
             {{ element.title }}
           <div class="user-control">
-        <button @click="openModal(user.id, element.id)">Edit Post</button>
+        <button @click="openModal(user.id, element.id)">Edit </button>
             <button @click="deletePost(user.id, element.id)">Delete</button>
 
           </div>
@@ -29,6 +29,7 @@
       <button @click="closeModal">Cancel</button>
     </div>
   </div>
+
 </template>
 
 <script setup>
